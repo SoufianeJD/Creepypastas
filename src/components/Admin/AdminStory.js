@@ -13,7 +13,7 @@ constructor(props){
 }
 
 componentDidMount() {
-  axios.get('/story/Selectstory')
+  axios.get('https://escaperoomandcreepypastas.herokuapp.com//story/Selectstory')
     .then(response => {
 if (response.data.length>0){
       this.setState({
@@ -26,7 +26,7 @@ if (response.data.length>0){
 }
 
 delstory(id) {
-  axios.delete('/story/Delstory/'+id)
+  axios.delete('https://escaperoomandcreepypastas.herokuapp.com//story/Delstory/'+id)
     .then(response => { console.log(response.data)});
 
   this.setState({

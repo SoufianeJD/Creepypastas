@@ -49,7 +49,7 @@ class AddStory extends React.Component {
   
       console.log(story);
   
-      axios.post('/story/Addstory', story)
+      axios.post('https://escaperoomandcreepypastas.herokuapp.com//story/Addstory', story)
         .then(res => console.log(res.data));
         
   

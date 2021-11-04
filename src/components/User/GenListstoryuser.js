@@ -8,7 +8,7 @@ class GenListstoryuser extends React.Component {
   <td>{this.props.story.title}</td>
   <td>{this.props.story.user}</td>
 
-<td> <Link to={"/Story/"+this.props.story._id}>Read</Link> </td>
+<td> <Link to={"https://escaperoomandcreepypastas.herokuapp.com//Story/"+this.props.story._id}>Read</Link> </td>
 
 </tr>
   );

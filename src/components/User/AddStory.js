@@ -58,7 +58,7 @@ class AddStory extends React.Component {
         title:'',
         user:''
       })
-      window.location = '/Stories';
+      window.location = '/index.html/Stories';
     }
     
   

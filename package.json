@@ -1,7 +1,6 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "https://quizzical-franklin-cb2a42.netlify.app/favicon.ico",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.13.13",

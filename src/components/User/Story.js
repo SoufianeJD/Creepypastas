@@ -20,7 +20,7 @@ class ViewStory extends React.Component {
 componentDidMount() {
 
   console.log(this.props.match.params.id)
-  axios.get('story/SelectStory/'+this.props.match.params.id)
+  axios.get('https://escaperoomandcreepypastas.herokuapp.com/story/SelectStory/'+this.props.match.params.id)
     .then(response => {
 
       this.setState({

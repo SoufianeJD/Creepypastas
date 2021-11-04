@@ -1,7 +1,7 @@
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import { BrowserRouter as Router, Route,Redirect } from "react-router-dom";
+import { HashRouter , Route,Redirect ,Switch } from "react-router-dom";
 import Signin from "./components/User/Signin";
 import Signup from "./components/User/Signup";
 import AddStory from "./components/User/AddStory";
@@ -22,7 +22,8 @@ function App() { const [isOpen, setIsOpen] = useState(false);
   const toggle = () => { setIsOpen(!isOpen); };
   return (
 
-    <Router>
+    <HashRouter>
+      <Switch>
    <Route exact path="/"> <Redirect to="/Main"/> </Route>
    <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
@@ -40,8 +41,8 @@ function App() { const [isOpen, setIsOpen] = useState(false);
 <Route path="/Contactbymail"  component={Contactbymail}/>
 <Contactbymail />
 <Footer />
-
-    </Router>
+</Switch>
+    </HashRouter>
  
   );
 }

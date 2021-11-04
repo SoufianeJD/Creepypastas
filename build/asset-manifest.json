@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.27d7d847.chunk.css",
-    "main.js": "/static/js/main.e095d2ed.chunk.js",
-    "main.js.map": "/static/js/main.e095d2ed.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.03887cff.js",
-    "runtime-main.js.map": "/static/js/runtime-main.03887cff.js.map",
-    "static/css/2.ebe04f07.chunk.css": "/static/css/2.ebe04f07.chunk.css",
-    "static/js/2.ec2aa60c.chunk.js": "/static/js/2.ec2aa60c.chunk.js",
-    "static/js/2.ec2aa60c.chunk.js.map": "/static/js/2.ec2aa60c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.ebe04f07.chunk.css.map": "/static/css/2.ebe04f07.chunk.css.map",
-    "static/css/main.27d7d847.chunk.css.map": "/static/css/main.27d7d847.chunk.css.map",
-    "static/js/2.ec2aa60c.chunk.js.LICENSE.txt": "/static/js/2.ec2aa60c.chunk.js.LICENSE.txt",
-    "static/media/laugh.ff80becc.gif": "/static/media/laugh.ff80becc.gif",
-    "static/media/skulllogo.34824d33.jpg": "/static/media/skulllogo.34824d33.jpg",
-    "static/media/stopwatchlogo.69ab000f.png": "/static/media/stopwatchlogo.69ab000f.png",
-    "static/media/video.f776ce12.mp4": "/static/media/video.f776ce12.mp4"
+    "main.css": "./static/css/main.27d7d847.chunk.css",
+    "main.js": "./static/js/main.fdcf5eac.chunk.js",
+    "main.js.map": "./static/js/main.fdcf5eac.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.c7bc4e54.js",
+    "runtime-main.js.map": "./static/js/runtime-main.c7bc4e54.js.map",
+    "static/css/2.ebe04f07.chunk.css": "./static/css/2.ebe04f07.chunk.css",
+    "static/js/2.c527a1ab.chunk.js": "./static/js/2.c527a1ab.chunk.js",
+    "static/js/2.c527a1ab.chunk.js.map": "./static/js/2.c527a1ab.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.ebe04f07.chunk.css.map": "./static/css/2.ebe04f07.chunk.css.map",
+    "static/css/main.27d7d847.chunk.css.map": "./static/css/main.27d7d847.chunk.css.map",
+    "static/js/2.c527a1ab.chunk.js.LICENSE.txt": "./static/js/2.c527a1ab.chunk.js.LICENSE.txt",
+    "static/media/laugh.ff80becc.gif": "./static/media/laugh.ff80becc.gif",
+    "static/media/skulllogo.34824d33.jpg": "./static/media/skulllogo.34824d33.jpg",
+    "static/media/stopwatchlogo.69ab000f.png": "./static/media/stopwatchlogo.69ab000f.png",
+    "static/media/video.f776ce12.mp4": "./static/media/video.f776ce12.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.03887cff.js",
+    "static/js/runtime-main.c7bc4e54.js",
     "static/css/2.ebe04f07.chunk.css",
-    "static/js/2.ec2aa60c.chunk.js",
+    "static/js/2.c527a1ab.chunk.js",
     "static/css/main.27d7d847.chunk.css",
-    "static/js/main.e095d2ed.chunk.js"
+    "static/js/main.fdcf5eac.chunk.js"
   ]
 }

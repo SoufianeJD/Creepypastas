@@ -22,13 +22,13 @@ function App() { const [isOpen, setIsOpen] = useState(false);
   const toggle = () => { setIsOpen(!isOpen); };
   return (
 
-    <HashRouter>
-      <Switch>
-   <Route exact path="/"> <Redirect to="/Main"/> </Route>
+    <HashRouter basename="/index.html">
+     
+   {/* <Route exact path="/"> <Redirect to="/"/> </Route> */}
    <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
-   
-      <Route path="/Main"  component={Main}/>
+      <Switch>
+      <Route path="/" exact component={Main}/>
 
       <Route path="/Signin"  component={Signin}/>
 <Route path="/Signup"  component={Signup}/>
